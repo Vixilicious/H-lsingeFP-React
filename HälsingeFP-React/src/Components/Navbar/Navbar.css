@@ -1,0 +1,30 @@
+.navbar {
+  top: 0;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  background-color: #2c2621;
+  width: 100%;
+  box-shadow: 0px 4px 4px 3px rgba(44, 38, 33);
+  height: 100px;
+}
+
+.logo {
+  width: 600px;
+}
+
+.navItems {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navH3-container {
+}
+
+.navH3 {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 400;
+}
