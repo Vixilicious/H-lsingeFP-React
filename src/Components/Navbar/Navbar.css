@@ -7,6 +7,7 @@
   align-items: center;
   background-color: #ffffff;
   width: 100%;
+  z-index: 1;
 }
 
 .nav-logo {
@@ -30,9 +31,14 @@
   padding-left: 20px;
 }
 
+.nav-h3:hover {
+  cursor: pointer;
+}
+
 .nav-h3 {
   color: black;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .nav-kt {
@@ -49,6 +55,10 @@
   height: 80px;
   justify-content: center;
   width: 30%;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .nav-h3:after {
@@ -118,7 +128,7 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 450px) {
   .navbar {
     position: fixed;
     top: auto;
@@ -143,7 +153,7 @@
     display: none;
   }
   .nav-h3 {
-    font-size: 13px;
+    font-size: 14px;
   }
   .nav-gold {
     height: 75px;
