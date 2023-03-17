@@ -22,9 +22,7 @@ export default function Navbar() {
           </div>
           <div className="nav-kt">
             <Link style={{ textDecoration: "none" }} to={"/kontakt"}>
-              <h3 className="nav-h3">
-                Kontakt<span className="contact-span">a oss</span>
-              </h3>
+              <h3 className="nav-h3">Kontakta oss</h3>
             </Link>
           </div>
           <div className="nav-gold">
