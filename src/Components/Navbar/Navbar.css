@@ -156,6 +156,7 @@ button:hover {
   }
   .nav-gold {
     height: 75px;
+    justify-content: center;
   }
   .h3-container {
     width: 100%;
