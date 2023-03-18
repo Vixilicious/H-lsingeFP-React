@@ -62,7 +62,7 @@ h1 span {
 }
 @media screen and (max-width: 530px) {
   h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .gold-line {
     max-width: 80%;
@@ -76,6 +76,6 @@ h1 span {
     font-size: 20px;
   }
   .lp-h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
