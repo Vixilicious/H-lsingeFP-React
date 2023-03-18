@@ -148,6 +148,7 @@ button:hover {
   }
   .nav-h3 {
     font-size: 14px;
+    display: flex;
     /* width: 150px; */
   }
   .nav-gold {
