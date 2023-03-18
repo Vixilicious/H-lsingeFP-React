@@ -133,7 +133,7 @@ button:hover {
     display: none;
   }
   .nav-logoRes {
-    position: fixed;
+    position: absolute;
     display: flex;
     width: 100%;
     justify-content: center;

@@ -1,5 +1,5 @@
 import React from "react";
-import "../LandingPage/LandingPage.css";
+import "./LandingPage.css";
 import video from "../../assets/dark-opacity.mp4";
 import goldLine from "../../../public/Images/gold-bar.png";
 
