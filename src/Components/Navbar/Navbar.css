@@ -23,6 +23,7 @@
 }
 
 .h3-container {
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,13 +38,14 @@
   color: black;
   font-weight: 500;
   cursor: pointer;
-  width: 200px;
+  /* width: 200px; */
 }
 
 .nav-kt {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  width: 200px;
 }
 
 .nav-gold {
@@ -52,6 +54,7 @@
   background-color: #d8ca93;
   height: 80px;
   justify-content: center;
+  width: 200px;
 }
 
 button:hover {
@@ -81,7 +84,10 @@ button:hover {
   }
   .nav-h3 {
     font-size: 18px;
-    width: 150px;
+    /* width: 150px; */
+  }
+  .h3-container {
+    max-width: 50%;
   }
 }
 
@@ -91,10 +97,14 @@ button:hover {
   }
   .nav-h3 {
     font-size: 18px;
-    width: 200px;
+    /* width: 200px; */
   }
   .nav-gold {
     height: 50px;
+  }
+  .h3-container {
+    min-width: 100%;
+    justify-content: space-between;
   }
 }
 @media screen and (max-width: 560px) {
@@ -106,7 +116,7 @@ button:hover {
   }
   .nav-h3 {
     font-size: 16px;
-    width: 150px;
+    /* width: 150px; */
   }
   .nav-gold {
     height: 40px;
@@ -139,7 +149,7 @@ button:hover {
   }
   .nav-h3 {
     font-size: 14px;
-    width: 150px;
+    /* width: 150px; */
   }
   .nav-gold {
     height: 75px;
@@ -149,8 +159,8 @@ button:hover {
   .logo {
     display: none;
   }
-  .nav-h3:hover {
-    display: none;
+  .nav-h3 {
+    display: flex;
   }
   .nav-logoRes {
     position: fixed;
@@ -168,7 +178,7 @@ button:hover {
   }
   .nav-h3 {
     font-size: 14px;
-    width: 140px;
+    /* width: 140px; */
   }
 }
 @media screen and (max-width: 385px) {
@@ -195,11 +205,11 @@ button:hover {
   }
   .nav-h3 {
     font-size: 14px;
-    width: auto;
+    /* width: auto; */
     border-bottom: 1px solid black;
   }
-  .nav-h3:hover {
-    display: none;
+  .nav-h3 {
+    display: flex;
   }
   .h3-container {
     border-top: 5px solid #d8ca93;
