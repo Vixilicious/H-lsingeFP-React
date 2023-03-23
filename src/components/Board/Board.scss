@@ -1,5 +1,45 @@
 .board {
-  background-color: rebeccapurple;
   padding: 24px;
   flex: 1;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  );
+  gap: 50px;
+
+  .board-moment {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+
+    .board-moment-icon {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+    }
+
+    .todo {
+      background-color: rgb(58, 207, 244);
+    }
+    .doing {
+      background-color: rgb(226, 156, 248);
+    }
+    .done {
+      background-color: rgb(121, 255, 121);
+    }
+
+    h4 {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-gray);
+      letter-spacing: 2.4px;
+    }
+  }
+
+  .board-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
 }
