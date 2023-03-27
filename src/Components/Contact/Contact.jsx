@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState } from 'react';
 
-const Contact = () => {
-  return <div></div>;
-};
+export default function Contact() {
+  const [name, setName] = useState('');
+  const [mail, setMail] = useState('');
+  const [number, setNumber] = useState('');
+  const [message, setMessage] = useState('');
 
-export default Contact;
+  return (
+    <div>
+      <div className='contact-form'>
+        <a href='mailto:victoriaaskander@gmail.com'>Maila här</a>
+      </div>
+    </div>
+  );
+}

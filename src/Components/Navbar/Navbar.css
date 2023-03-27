@@ -19,6 +19,7 @@
 }
 
 .logo {
+  padding: 7px;
   height: 80px;
 }
 
@@ -34,7 +35,7 @@
 }
 
 .nav-h3 {
-  color: black;
+  color: rgb(0, 0, 0);
   font-weight: 500;
   cursor: pointer;
   /* width: 200px; */
@@ -62,7 +63,7 @@ button:hover {
 
 .nav-h3:after {
   display: block;
-  content: "";
+  content: '';
   border-bottom: solid 1.5px #000000;
   transform: scaleX(0);
   transition: transform 350ms ease-in-out;
